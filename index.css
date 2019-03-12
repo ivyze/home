@@ -1,8 +1,9 @@
   body{
   font-size: 10px; min-width: 320px;
+font-family: 'Song Myung', serif;
 }
   header{
-    width:100%;background:powderblue; padding:10px 0 10px 0;
+    width:100%;background:black;
     display:inline-block;
   }
   header nav{
@@ -26,40 +27,28 @@
   .myVisual section p{
     float:left; width:100%; text-align: center; color:tomato;
   }
-  #webIntro{
-    clear:both; float:left; width:100%; background:mistyrose; padding:50px 0 50px 0;
-  }
-  .webIntroCenter{
-    width:90%;margin:0 auto;
-  }
-  .blah{
-    float: left;width: 23%; height:50px; border:2px solid tomato; border-radius: 10px;
-  }
-  .blah p{
-    float:left;width:100%;text-align: center; color:tomato; margin-top: 12px; font-size: 2em;
-  }
   footer{
-    clear:both; float:left; width:100%; border-bottom: 1px solid #000; padding:20px 0 20px 0;
+    clear:both; float:left; width:100%; border-bottom: 1px solid #000;
+    text-align: center;
   }
 
 
   /*moblie app*/
-    @media screen and (min-width:0px) and (max-width:600px){
+    @media screen and (min-width:0px) and (max-width:800px){
       #logo{float:left;width:100%;font-size: 3em; color:#fff; text-align: center;}
       header nav{width:100%;}
       header nav ul li{float: left;width:20%;font-size: 1.3em;}
-      .myVisual{height:300px;}
+      .myVisual{height:550px;}
       .myVisual section p{font-size:3em;}
       .blah{clear:both;float:left;width:100%; text-align:center;}
       .blah2{margin:10px 0px;}
     }
 
   /*pc web*/
-    @media screen and (min-width:601px) and (max-width:2000px){
+    @media screen and (min-width:801px) and (max-width:2000px){
       #logo{font-size:4em; color: #fff; margin-left: 5%; display:inline-block; }
       header nav{float:right; margin-top: 27px; margin-right: 10px;}
       header nav ul li{width:100px;font-size:1.3rem; }
-      .myVisual{height:400px;}
-      .myVisual section p{font-size:3rem;}
-      .blah2{margin:0 14% 0}
+      .myVisual{height:550px;}
+      .myVisual section p{font-size:2.5rem;}
     }
