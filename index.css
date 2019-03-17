@@ -2,6 +2,14 @@
   font-size: 10px; min-width: 320px;
 font-family: 'Song Myung', serif;
 }
+a{
+  text-decoration: none;
+  color:white;
+}
+a:hover{
+  text-decoration: none;
+  color:white;
+}
   header{
     width:100%;background:black;
     display:inline-block;
@@ -10,45 +18,82 @@ font-family: 'Song Myung', serif;
     float:left;
   }
   header nav ul{
-    float:left; width:100%;
+    float:left;
+    width:100%;
   }
   header nav ul li{
-    float:left; color:#fff; text-align: center;list-style: none;
+    float:left;
+    color:#fff;
+    text-align: center;
+    list-style: none;
   }
   .content{
     width:100%;
   }
-  .myVisual{width:100%; background-image: url('liot1.jpg');
-    background-size: cover; background-position:50%
+  .myVisual{width:100%;
+    background-image: url('liot2.jpg');
+    background-size: cover;
+    background-position:50%
   }
   .myVisual section{
-    width:80%; margin:0 auto; position:relative; top:30%;
+    width:80%;
+    margin:0 auto;
+    position:relative;
+    top:30%;
   }
   .myVisual section p{
-    float:left; width:100%; text-align: center; color:tomato;
+    float:left;
+    width:100%;
+    text-align: center;
+    color:#fff;
   }
   footer{
-    clear:both; float:left; width:100%; border-bottom: 1px solid #000;
+    clear:both;
+    float:left;
+    width:100%;
+    border-bottom: 1px solid #000;
     text-align: center;
   }
 
 
   /*moblie app*/
     @media screen and (min-width:0px) and (max-width:800px){
-      #logo{float:left;width:100%;font-size: 3em; color:#fff; text-align: center;}
+      #logo{
+        float:left;
+        width:100%;
+        font-size: 3em;
+        color:#fff;
+        text-align: center;}
       header nav{width:100%;}
-      header nav ul li{float: left;width:20%;font-size: 1.3em;}
+      header nav ul li{
+        float: left;
+        width:20%;
+        font-size: 1.3em;}
       .myVisual{height:550px;}
       .myVisual section p{font-size:3em;}
-      .blah{clear:both;float:left;width:100%; text-align:center;}
+      .blah{
+        clear:both;
+        float:left;
+        width:100%;
+        text-align:center;}
       .blah2{margin:10px 0px;}
     }
 
   /*pc web*/
     @media screen and (min-width:801px) and (max-width:2000px){
-      #logo{font-size:4em; color: #fff; margin-left: 5%; display:inline-block; }
-      header nav{float:right; margin-top: 27px; margin-right: 10px;}
-      header nav ul li{width:100px;font-size:1.3rem; }
+      #logo{
+        font-size:4em;
+        color: #fff;
+        margin-left: 5%;
+        display:inline-block;
+      }
+      header nav{
+        float:right;
+        margin-top: 27px;
+        margin-right: 10px;}
+      header nav ul li{
+        width:100px;
+        font-size:1.3rem; }
       .myVisual{height:550px;}
       .myVisual section p{font-size:2.5rem;}
     }
